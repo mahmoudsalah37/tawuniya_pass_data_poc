@@ -98,16 +98,14 @@ class _ContactInfoScreenState extends State<ContactInfoScreen> {
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {
                     _formKey.currentState!.save();
-                    final data = widget.signUpData.copyWith(
-                      contactInfo: ContactInfo(
-                        email: _email,
-                        phone: _phone,
-                        address: _address,
-                      ),
+                    widget.signUpData.contactInfo = ContactInfo(
+                      email: _email,
+                      phone: _phone,
+                      address: _address,
                     );
                     context.push(
                       '/summary',
-                      extra: data,
+                      extra: widget.signUpData,
                     );
                   }
                 },

@@ -3,8 +3,8 @@ import 'contact_info.dart';
 import 'user_info.dart';
 
 class SignUpData {
-  late final UserInfo userInfo;
-  late final ContactInfo contactInfo;
+  late UserInfo userInfo;
+  late ContactInfo contactInfo;
   SignUpData({UserInfo? userInfo, ContactInfo? contactInfo}) {
     if (userInfo != null) {
       this.userInfo = userInfo;
