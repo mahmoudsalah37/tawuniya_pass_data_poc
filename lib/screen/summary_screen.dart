@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../entities/sign_up_data.dart';
+import '../args/sign_up_data.dart';
 
 class SummaryScreen extends StatelessWidget {
   final SignUpData signUpData;

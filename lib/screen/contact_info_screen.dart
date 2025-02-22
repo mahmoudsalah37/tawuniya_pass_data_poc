@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-import '../entities/contact_info.dart';
-import '../entities/sign_up_data.dart';
+import '../args/contact_info.dart';
+import '../args/sign_up_data.dart';
 
 class ContactInfoScreen extends StatefulWidget {
   final SignUpData signUpData;

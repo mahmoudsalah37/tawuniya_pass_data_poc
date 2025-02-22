@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-import 'entities/sign_up_data.dart';
+import 'args/sign_up_data.dart';
 import 'screen/contact_info_screen.dart';
 import 'screen/summary_screen.dart';
 import 'screen/user_info_screen.dart';

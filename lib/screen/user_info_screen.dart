@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:tawuniya_pass_data_poc/entities/sign_up_data.dart';
+import 'package:tawuniya_pass_data_poc/args/sign_up_data.dart';
 
-import '../entities/user_info.dart';
+import '../args/user_info.dart';
 
 class UserInfoScreen extends StatefulWidget {
   const UserInfoScreen({super.key});
